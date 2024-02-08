@@ -1,0 +1,126 @@
+/*zerando a pagina*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* layout */
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#area-logo, #area-menu{
+    padding: 10px ;
+}
+
+#area-principal{
+    width: 950px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    margin-bottom: 20px ;
+   
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+.conteudo-lateral{
+background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+   }
+
+/* Menu */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    background: white;
+    color: orange;
+    text-decoration: none;
+}
+
+/* Fomatações Gerais*/
+p{
+    padding-top: 10px;
+}
+
+h1{
+    color: #4e4e4e;
+    size: 2.5em;
+
+}
+
+h2{
+    color: #f7b600;
+    size: 2.5em;
+
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+    
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f7b600;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+   
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #f7b600;
+}
